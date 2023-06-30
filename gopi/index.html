@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  }
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("bridal3.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mySlides {display:none;}
+
+.about-section {
+  padding: 60px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off w3-container">
+    <a href="#HOME" class="w3-bar-item w3-button">HOME</a>
+    <a href="#WORK" class="w3-bar-item w3-button">WORK</a>
+	<a href="#ABOUT" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#CONTACT ME" class="w3-bar-item w3-button">CONTACT ME</a>
+	
+  </div>
+</div>
+
+<div class="bg-image" id="HOME"></div>
+
+<div class="bg-text">
+  <h1 style="font-size:50px">Dv Art</h1>
+  <p>......Mehndi Shows The Feelings...Of a Girl...It's Just a Mingling Of Happiness Overloaded......</p>
+</div>
+<h2 class="w3-center w3-#bbdefb">Work Gallery</h2>
+
+<div class="w3-content w3-display-container" id="WORK">
+  <img class="mySlides" src="bridal8.jpg" style="width:100%">
+  <img class="mySlides" src="bridal7.jpg" style="width:100%">
+  <img class="mySlides" src="bridal9.jpg" style="width:100%">
+  <img class="mySlides" src="bridal10.jpg" style="width:100%">
+  <img class="mySlides" src="bridal11.jpg" style="width:100%">
+  <img class="mySlides" src="bridal5.jpg" style="width:100%">
+  <img class="mySlides" src="bridal2.jpg" style="width:100%">
+  <img class="mySlides" src="bridal4.jpg" style="width:100%">
+  <img class="mySlides" src="first.jpg" style="width:100%">
+  <img class="mySlides" src="second.jpg" style="width:100%">
+  <img class="mySlides" src="third.jpg" style="width:100%">
+  <img class="mySlides" src="four.jpg" style="width:100%">
+  <img class="mySlides" src="five.jpg" style="width:100%">
+  <img class="mySlides" src="six.jpg" style="width:100%">
+  <img class="mySlides" src="sevan.jpg" style="width:100%">
+  <img class="mySlides" src="eight.jpg" style="width:100%">
+  <img class="mySlides" src="nine.jpg" style="width:100%">
+  <img class="mySlides" src="ten.jpg" style="width:100%">
+  <img class="mySlides" src="elevan.jpg" style="width:100%">
+  <img class="mySlides" src="thirty.jpg" style="width:100%">
+  <img class="mySlides" src="fourty.jpg" style="width:100%">
+  <img class="mySlides" src="fifty.jpg" style="width:100%">
+  <img class="mySlides" src="sixty.jpg" style="width:100%">
+  <img class="mySlides" src="saventy.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<h2 class="w3-center">About</h2>
+
+<div class="about-section" id="ABOUT">
+  <h1>About</h1>
+  <p>  Mehndi is a true symbol of art, culture, and tradition🌟. 
+       Mehndi is the absolute symbol of beauty in feminity. 
+       Expressing my gracefulness with my Mehndi design. 
+       Adding magic and sparkle to my mehndi.</p>
+<h3 class="w3-center"><b> My Some Theme </h3></b>
+<div class="w3-row w3-center">
+ <p> * Festivales/Occasions </P>
+ <p> * Functions/Events </p>
+ <p> * Birthday Parties </p>
+ </div>
+</div>
+
+<h2 class="w3-center">Contact</h2>
+
+<div class="w3-container w3-light-grey w3-center" style="padding:100px 20px" id="CONTACT ME">
+  <h3 class="w3-center w3-xxlarge">CONTACT ME</h3>
+  <div style="w3-center">
+  <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Amreli, Gujrat</p>
+  <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 9638717905</p>
+  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email:-Vasoyadharita@gmail.com </p>
+  <p><i style="font-size:50px" class="fa">&#xf16d;</i> dharita_mhendi_33 </p>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
